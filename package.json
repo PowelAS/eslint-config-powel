@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-powel",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Powel ESLint configs",
   "main": "index.js",
   "author": "Filip Malinowski <filip.malinowski@powel.com>",

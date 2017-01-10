@@ -84,6 +84,38 @@ Add this to your `.eslintrc`:
 }
 ```
 
+### Jest
+
+To use the [Jest](http://facebook.github.io/jest/) rule set:
+
+```sh
+npm i -D eslint eslint-config-powel eslint-plugin-jest
+```
+
+Add this to your `.eslintrc`:
+
+```js
+{
+  "extends": "powel/jest"
+}
+```
+
+### Mocha
+
+To use the [Mocha](https://mochajs.org/) rule set:
+
+```sh
+npm i -D eslint eslint-config-powel
+```
+
+Add this to your `.eslintrc`:
+
+```js
+{
+  "extends": "powel/mocha"
+}
+```
+
 ## Composition
 
 You can use any combination of these presets.
@@ -91,7 +123,7 @@ You can use any combination of these presets.
 Install the dependencies:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint eslint-plugin-babel eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-import eslint-plugin-react
+npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint eslint-plugin-babel eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-import eslint-plugin-react eslint-plugin-jest
 ```
 
 `.eslintrc`:
@@ -103,7 +135,8 @@ npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint esli
     "powel/babel",
     "powel/flow",
     "powel/import",
-    "powel/react"
+    "powel/react",
+    "powel/jest"
   ],
   "rules": {
     // custom tweaks
