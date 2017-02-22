@@ -116,6 +116,22 @@ Add this to your `.eslintrc`:
 }
 ```
 
+### css-modules
+
+To use the `eslint-plugin-css-modules` rule set:
+
+```sh
+npm i -D eslint eslint-config-powel eslint-plugin-css-modules
+```
+
+Add this to your `.eslintrc`:
+
+```js
+{
+  "extends": "powel/css-modules"
+}
+```
+
 ## Composition
 
 You can use any combination of these presets.
@@ -123,7 +139,7 @@ You can use any combination of these presets.
 Install the dependencies:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint eslint-plugin-babel eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-import eslint-plugin-react eslint-plugin-jest
+npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint eslint-plugin-babel eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-import eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
 ```
 
 `.eslintrc`:
@@ -136,7 +152,8 @@ npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint esli
     "powel/flow",
     "powel/import",
     "powel/react",
-    "powel/jest"
+    "powel/jest",
+    "powel/css-modules"
   ],
   "rules": {
     // custom tweaks

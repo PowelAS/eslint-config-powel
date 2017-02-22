@@ -8,6 +8,7 @@ var flowConfig = require('../flow');
 var importConfig = require('../import');
 var mochaConfig = require('../mocha');
 var jestConfig = require('../jest');
+var cssModulesConfig = require('../css-modules');
 
 assert.deepEqual(config.extends, [
   'eslint:recommended',
@@ -29,3 +30,5 @@ assert(~importConfig.plugins.indexOf('import'));
 
 assert.equal(mochaConfig.env.mocha, true);
 assert.equal(jestConfig.env.jest, true);
+
+assert(~cssModulesConfig.plugins.indexOf('css-modules'));
