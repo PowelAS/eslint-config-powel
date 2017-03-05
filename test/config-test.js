@@ -29,6 +29,6 @@ assert(~flowConfig.plugins.indexOf('flowtype-errors'));
 assert(~importConfig.plugins.indexOf('import'));
 
 assert.equal(mochaConfig.env.mocha, true);
-assert.equal(jestConfig.env.jest, true);
+assert.equal(jestConfig.env['jest/globals'], true);
 
 assert(~cssModulesConfig.plugins.indexOf('css-modules'));
