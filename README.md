@@ -9,7 +9,7 @@ ESLint configuration presets for Powel projects.
 ### Common
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-config-semistandard
+npm i -D eslint eslint-config-powel
 ```
 
 Add to your `.eslintrc`
@@ -25,7 +25,7 @@ Add to your `.eslintrc`
 To use the Babel rule set:
 
 ```sh
-npm i -D eslint eslint-config-powel babel-eslint eslint-plugin-babel
+npm i -D eslint eslint-config-powel babel-eslint
 ```
 
 Add this to your `.eslintrc`:
@@ -73,7 +73,7 @@ Add this to your `.eslintrc`:
 To use the `eslint-plugin-import` rule set:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-plugin-import
+npm i -D eslint eslint-config-powel
 ```
 
 Add this to your `.eslintrc`:
@@ -139,7 +139,7 @@ You can use any combination of these presets.
 Install the dependencies:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-config-semistandard babel-eslint eslint-plugin-babel eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-import eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
+npm i -D eslint eslint-config-powel babel-eslint eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
 ```
 
 `.eslintrc`:
