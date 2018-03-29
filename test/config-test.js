@@ -1,24 +1,21 @@
 'use strict';
 
-var assert = require('assert');
-var config = require('../');
-var reactConfig = require('../react');
-var babelConfig = require('../babel');
-var flowConfig = require('../flow');
-var importConfig = require('../import');
-var mochaConfig = require('../mocha');
-var jestConfig = require('../jest');
-var cssModulesConfig = require('../css-modules');
+const assert = require('assert');
+const config = require('../');
+const reactConfig = require('../react');
+const flowConfig = require('../flow');
+const importConfig = require('../import');
+const mochaConfig = require('../mocha');
+const jestConfig = require('../jest');
+const cssModulesConfig = require('../css-modules');
 
-assert.deepEqual(config.extends, ['standard', 'prettier']);
+assert.deepEqual(config.extends, ['standard', 'prettier', 'prettier/standard']);
 assert(~config.plugins.indexOf('prettier'));
 assert(~Object.keys(config.rules).indexOf('prettier/prettier'));
 assert.equal(config.env.browser, true);
 
 assert(~reactConfig.plugins.indexOf('react'));
 assert(reactConfig.parserOptions.ecmaFeatures.jsx);
-
-assert(babelConfig.parser === 'babel-eslint');
 
 assert(flowConfig.parser === 'babel-eslint');
 assert(~flowConfig.plugins.indexOf('flowtype'));

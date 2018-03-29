@@ -20,22 +20,6 @@ Add to your `.eslintrc`
 }
 ```
 
-### Babel
-
-To use the Babel rule set:
-
-```sh
-npm i -D eslint eslint-config-powel babel-eslint
-```
-
-Add this to your `.eslintrc`:
-
-```js
-{
-  "extends": "powel/babel"
-}
-```
-
 ### Flow
 
 To use the [flow](https://flowtype.org) rule set:
@@ -148,7 +132,6 @@ npm i -D eslint eslint-config-powel babel-eslint eslint-plugin-flowtype eslint-p
 {
   "extends": [
     "powel",
-    "powel/babel",
     "powel/flow",
     "powel/import",
     "powel/react",
