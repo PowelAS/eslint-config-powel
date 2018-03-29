@@ -1,3 +1,7 @@
+# 3.1.0 - 2018-03-28
+
+* Added: `babel` preset
+
 # 3.0.0 - 2018-03-28
 
 * Removed: `babel` preset
