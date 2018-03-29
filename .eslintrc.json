@@ -5,9 +5,6 @@
   "extends": ["standard", "prettier", "prettier/standard"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error",
-    "no-var": "error",
-    "prefer-const": "error",
-    "object-shorthand": "warn"
+    "prettier/prettier": "error"
   }
 }

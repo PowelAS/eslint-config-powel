@@ -3,6 +3,7 @@
 const assert = require('assert');
 const config = require('../');
 const reactConfig = require('../react');
+const babelConfig = require('../babel');
 const flowConfig = require('../flow');
 const importConfig = require('../import');
 const mochaConfig = require('../mocha');
@@ -16,6 +17,8 @@ assert.equal(config.env.browser, true);
 
 assert(~reactConfig.plugins.indexOf('react'));
 assert(reactConfig.parserOptions.ecmaFeatures.jsx);
+
+assert(babelConfig.parser === 'babel-eslint');
 
 assert(flowConfig.parser === 'babel-eslint');
 assert(~flowConfig.plugins.indexOf('flowtype'));
