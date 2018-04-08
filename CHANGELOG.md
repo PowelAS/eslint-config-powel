@@ -1,3 +1,7 @@
+# 4.0.0 - 2018-04-08
+
+* Added: `camelCase` option for `css-loader`
+
 # 3.1.0 - 2018-03-28
 
 * Added: `babel` preset
