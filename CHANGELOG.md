@@ -1,3 +1,7 @@
+# 5.0.0 - 2018-09-11
+
+* Added: support for ESLint 5.0.0
+
 # 4.0.0 - 2018-04-08
 
 * Added: `camelCase` option for `css-loader`

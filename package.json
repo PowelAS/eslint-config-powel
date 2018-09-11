@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-powel",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Powel ESLint configs",
-  "keywords": ["eslint", "eslint-config"],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "main": "index.js",
   "author": "Filip Malinowski <filip.malinowski@powel.com>",
   "repository": "https://github.com/PowelAS/eslint-config-powel.git",
