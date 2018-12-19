@@ -52,6 +52,22 @@ Add this to your `.eslintrc`:
 }
 ```
 
+### TypeScript
+
+To use the [TypeScript](https://www.typescriptlang.org/) rule set:
+
+```sh
+npm i -D eslint eslint-config-powel typescript-eslint-parser eslint-plugin-typescript eslint-import-resolver-typescript
+```
+
+Add this to your `.eslintrc`:
+
+```js
+{
+  "extends": "powel/typescript"
+}
+```
+
 ### React
 
 To use the React rule set:
@@ -139,7 +155,7 @@ You can use any combination of these presets.
 Install the dependencies:
 
 ```sh
-npm i -D eslint eslint-config-powel babel-eslint eslint-plugin-flowtype eslint-plugin-flowtype-errors eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
+npm i -D eslint eslint-config-powel babel-eslint typescript-eslint-parser eslint-plugin-typescript eslint-import-resolver-typescript eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
 ```
 
 `.eslintrc`:
@@ -149,8 +165,8 @@ npm i -D eslint eslint-config-powel babel-eslint eslint-plugin-flowtype eslint-p
   "extends": [
     "powel",
     "powel/babel",
-    "powel/flow",
     "powel/import",
+    "powel/typescript",
     "powel/react",
     "powel/jest",
     "powel/css-modules"
