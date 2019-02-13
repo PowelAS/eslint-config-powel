@@ -1,3 +1,7 @@
+# 5.2.0 - 2019-02-13
+
+- Added: disabled JS specific rules for TypeScript files in `react` preset
+
 # 5.1.0 - 2018-12-19
 
 - Added: TypeScript config
