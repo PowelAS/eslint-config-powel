@@ -1,10 +1,11 @@
 'use strict';
 
 module.exports = {
-  plugins: ['typescript'],
+  extends: 'prettier/@typescript-eslint',
+  plugins: ['@typescript-eslint'],
   settings: {
     'import/parsers': {
-      'typescript-eslint-parser': ['.ts', '.tsx']
+      '@typescript-eslint/parser': ['.ts', '.tsx']
     },
     'import/resolver': {
       typescript: {}
@@ -13,21 +14,19 @@ module.exports = {
   overrides: [
     {
       files: '*.{ts,tsx}',
-      parser: 'typescript-eslint-parser',
+      parser: '@typescript-eslint/parser',
       rules: {
-        // https://github.com/bradzacher/eslint-plugin-typescript
-        'typescript/adjacent-overload-signatures': 'error',
-        'typescript/class-name-casing': 'error',
-        'typescript/type-annotation-spacing': 'error',
-        'typescript/member-delimiter-style': 'off', // defer to prettier
-        'typescript/no-array-constructor': 'error',
-        'typescript/no-inferrable-types': 'error',
-        'typescript/no-empty-interface': 'error',
-        'typescript/no-angle-bracket-type-assertion': 'error',
-        // 'typescript/array-type': ['error', 'array-simple'],
-        'typescript/no-var-requires': 'error',
-        'typescript/no-triple-slash-reference': 'error',
-        'typescript/no-namespace': 'error',
+        // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
+        '@typescript-eslint/adjacent-overload-signatures': 'error',
+        '@typescript-eslint/class-name-casing': 'error',
+        '@typescript-eslint/no-array-constructor': 'error',
+        '@typescript-eslint/no-inferrable-types': 'error',
+        '@typescript-eslint/no-empty-interface': 'error',
+        '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+        // '@typescript-eslint/array-type': ['error', 'array-simple'],
+        '@typescript-eslint/no-var-requires': 'error',
+        '@typescript-eslint/no-triple-slash-reference': 'error',
+        '@typescript-eslint/no-namespace': 'error',
 
         // already supported by TS
         'no-undef': 'off',

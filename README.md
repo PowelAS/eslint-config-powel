@@ -57,7 +57,7 @@ Add this to your `.eslintrc`:
 To use the [TypeScript](https://www.typescriptlang.org/) rule set:
 
 ```sh
-npm i -D eslint eslint-config-powel typescript-eslint-parser eslint-plugin-typescript eslint-import-resolver-typescript
+npm i -D eslint eslint-config-powel @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript
 ```
 
 Add this to your `.eslintrc`:
@@ -155,7 +155,7 @@ You can use any combination of these presets.
 Install the dependencies:
 
 ```sh
-npm i -D eslint eslint-config-powel babel-eslint typescript-eslint-parser eslint-plugin-typescript eslint-import-resolver-typescript eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
+npm i -D eslint eslint-config-powel babel-eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
 ```
 
 `.eslintrc`:
