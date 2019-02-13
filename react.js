@@ -28,5 +28,13 @@ module.exports = {
     'react/react-in-jsx-scope': 'warn',
     'react/self-closing-comp': 'error',
     'react/sort-comp': 'warn'
-  }
+  },
+  overrides: [
+    {
+      files: '*.{ts,tsx}',
+      rules: {
+        'react/jsx-filename-extension': 'off'
+      }
+    }
+  ]
 };
