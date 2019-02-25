@@ -1,3 +1,8 @@
+# 5.3.0 - 2019-02-25
+
+- Changed: migrate deprecated `typescript-eslint-parser` and `eslint-plugin-typescript` to
+  `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin`
+
 # 5.2.0 - 2019-02-13
 
 - Added: disabled JS specific rules for TypeScript files in `react` preset
