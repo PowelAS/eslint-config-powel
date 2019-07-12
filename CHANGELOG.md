@@ -1,3 +1,7 @@
+# 6.0.0 - 2019-02-25
+
+- Added: support for ESLint 6.0.0
+
 # 5.3.0 - 2019-02-25
 
 - Changed: migrate deprecated `typescript-eslint-parser` and `eslint-plugin-typescript` to
