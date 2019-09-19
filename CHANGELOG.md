@@ -1,3 +1,7 @@
+# 6.2.1 2019-09-19
+
+- Removed: `@typescript-eslint/explicit-function-return-type` rule
+
 # 6.2.0 2019-09-19
 
 - Changed: upgrade to `@typescript-eslint` 2
