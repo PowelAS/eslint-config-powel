@@ -1,3 +1,12 @@
+# 6.2.0 2019-09-19
+
+- Changed: upgrade to `@typescript-eslint` 2
+
+# 6.1.0 - 2019-09-09
+
+- Changed: `eslint-config-standard` has been updated to `~14.1.0`
+- Security: upgrade `eslint` to fix security issue
+
 # 6.1.0 - 2019-09-09
 
 - Changed: `eslint-config-standard` has been updated to `~14.1.0`
