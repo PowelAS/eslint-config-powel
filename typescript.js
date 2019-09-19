@@ -41,12 +41,6 @@ module.exports = {
           }
         ],
         '@typescript-eslint/no-namespace': 'error',
-        '@typescript-eslint/explicit-function-return-type': [
-          'error',
-          {
-            allowExpressions: true
-          }
-        ],
 
         // already supported by TS
         'no-undef': 'off',
