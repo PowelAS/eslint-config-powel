@@ -2,6 +2,9 @@
 
 module.exports = {
   extends: 'prettier/@typescript-eslint',
+  parserOptions: {
+    jsx: true
+  },
   plugins: ['@typescript-eslint'],
   settings: {
     'import/parsers': {
@@ -22,11 +25,28 @@ module.exports = {
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-inferrable-types': 'error',
         '@typescript-eslint/no-empty-interface': 'error',
-        '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+        '@typescript-eslint/consistent-type-assertions': [
+          'error',
+          {
+            assertionStyle: 'as',
+            objectLiteralTypeAssertions: 'allow-as-parameter'
+          }
+        ],
         // '@typescript-eslint/array-type': ['error', 'array-simple'],
         '@typescript-eslint/no-var-requires': 'error',
-        '@typescript-eslint/no-triple-slash-reference': 'error',
+        '@typescript-eslint/triple-slash-reference': [
+          'error',
+          {
+            path: 'never'
+          }
+        ],
         '@typescript-eslint/no-namespace': 'error',
+        '@typescript-eslint/explicit-function-return-type': [
+          'error',
+          {
+            allowExpressions: true
+          }
+        ],
 
         // already supported by TS
         'no-undef': 'off',
