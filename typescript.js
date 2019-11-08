@@ -21,6 +21,12 @@ module.exports = {
       rules: {
         // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
         '@typescript-eslint/adjacent-overload-signatures': 'error',
+        '@typescript-eslint/array-type': [
+          'error',
+          {
+            default: 'array'
+          }
+        ],
         '@typescript-eslint/class-name-casing': 'error',
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-inferrable-types': 'error',
