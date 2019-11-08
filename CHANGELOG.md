@@ -1,3 +1,7 @@
+# 6.3.0 2019-11-08
+
+- Added: more `eslint-plugin-import` rules
+
 # 6.2.1 2019-09-19
 
 - Removed: `@typescript-eslint/explicit-function-return-type` rule
