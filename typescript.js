@@ -12,7 +12,9 @@ module.exports = {
     },
     'import/resolver': {
       typescript: {}
-    }
+    },
+    // https://github.com/benmosher/eslint-plugin-import/issues/1525
+    'import/external-module-folders': ['node_modules', 'node_modules/@types']
   },
   overrides: [
     {
