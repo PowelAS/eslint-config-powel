@@ -9,7 +9,6 @@ module.exports = {
     'import/named': 'error',
     'import/default': 'error',
     'import/no-dynamic-require': 'error',
-    'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/order': [
