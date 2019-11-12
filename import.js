@@ -23,6 +23,13 @@ module.exports = {
     'import/no-amd': 'error'
   },
   settings: {
+    'import/resolver': {
+      // https://github.com/benmosher/eslint-plugin-import/issues/1396
+      node: {},
+      webpack: {
+        config: 'conf/webpack.common.js'
+      }
+    },
     'import/ignore': [
       'node_modules',
       '.json$',
