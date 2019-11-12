@@ -1,7 +1,11 @@
+# 6.4.1 2019-11-13
+
+- Fixed: add missing webpack module resolution plugin
+
 # 6.4.0 2019-11-12
 
 - Removed: `import/no-cycle` rule
-- Fixed: `order/import` now correctly recognizes modules as "external" when using Typescript
+- Fixed: `import/order` now correctly recognizes modules as "external" when using Typescript
 
 # 6.3.0 2019-11-08
 
