@@ -1,3 +1,8 @@
+# 6.4.0 2019-11-12
+
+- Removed: `import/no-cycle` rule
+- Fixed: `order/import` now correctly recognizes modules as "external" when using Typescript
+
 # 6.3.0 2019-11-08
 
 - Added: more `eslint-plugin-import` rules
