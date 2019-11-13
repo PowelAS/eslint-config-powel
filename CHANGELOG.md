@@ -1,3 +1,7 @@
+# 6.4.2 2019-11-13
+
+- Fixed: change webpack resolver config path to `.babel.js` for auto transpilation
+
 # 6.4.1 2019-11-13
 
 - Fixed: add missing webpack module resolution plugin
