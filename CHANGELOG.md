@@ -1,3 +1,7 @@
+# 6.4.3 2019-11-13
+
+- Fixed: change webpack resolver config path to `webpack.eslint.js`
+
 # 6.4.2 2019-11-13
 
 - Fixed: change webpack resolver config path to `.babel.js` for auto transpilation
