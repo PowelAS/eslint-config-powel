@@ -28,7 +28,7 @@ module.exports = {
       node: {},
       webpack: {
         // https://github.com/benmosher/eslint-plugin-import/issues/799
-        config: 'conf/webpack.common.babel.js'
+        config: 'conf/webpack.eslint.js'
       }
     },
     'import/ignore': [
