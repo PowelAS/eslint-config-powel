@@ -1,3 +1,7 @@
+# 6.6.2 2020-04-09
+
+- Added: specify `react/sort-comp` order with `static-variables` included
+
 # 6.5.0 2020-04-03
 
 - Added: extend react config with `prettier/react`
