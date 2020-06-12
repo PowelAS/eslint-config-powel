@@ -73,7 +73,7 @@ Add this to your `.eslintrc`:
 To use the React rule set:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-plugin-react
+npm i -D eslint eslint-config-powel eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 Add this to your `.eslintrc`:
