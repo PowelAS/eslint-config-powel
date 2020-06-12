@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-powel",
-  "version": "6.6.2",
+  "version": "7.0.0",
   "description": "Powel ESLint configs",
   "keywords": [
     "eslint",

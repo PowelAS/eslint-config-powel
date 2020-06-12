@@ -1,3 +1,9 @@
+# 7.0.0 2020-06-12
+
+- Added: support for ESLint 7.0.0
+- Added: `react-hooks` plugin to `react` config
+- Changed: `react/jsx-no-bind` has been relaxed to allow for arrow functions
+
 # 6.6.2 2020-04-09
 
 - Added: specify `react/sort-comp` order with `static-variables` included
