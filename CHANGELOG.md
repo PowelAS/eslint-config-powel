@@ -1,3 +1,7 @@
+# 7.1.0 2020-08-03
+
+- Changed: use `@babel/eslint-parser`
+
 # 7.0.0 2020-06-12
 
 - Added: support for ESLint 7.0.0
