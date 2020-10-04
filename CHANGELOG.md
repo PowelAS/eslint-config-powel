@@ -1,3 +1,7 @@
+# 7.2.0 2020-10-04
+
+- Added: patch for enabling ESLint modern module resolution
+
 # 7.1.0 2020-08-03
 
 - Changed: use `@babel/eslint-parser`
