@@ -1,3 +1,8 @@
+# 8.0.0 2020-10-04
+
+- Breaking: removed `eslint-import-resolver-webpack` from direct dependencies. This means
+  you need to install `eslint-import-resolver-webpack` locally when extending from `powel/import` config
+
 # 7.2.0 2020-10-04
 
 - Added: patch for enabling ESLint modern module resolution
