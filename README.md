@@ -176,3 +176,21 @@ npm i -D eslint eslint-config-powel babel-eslint @typescript-eslint/parser @type
   }
 }
 ```
+
+## Patch
+
+Our shareable config uses rules from external plugins such as `eslint-plugin-prettier`.
+This patch improves how ESLint loads plugins when working for example in a monorepo,
+see: https://github.com/eslint/eslint/issues/3458
+
+
+`.eslintrc.js`
+
+```js
+// Patch ESLint module resolution to find shared configs' plugins
+require('eslint-config-powel/patch/modern-module-resolution');
+
+module.exports = {
+  extends: ['powel'],
+};
+```
