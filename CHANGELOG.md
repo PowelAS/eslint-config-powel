@@ -1,3 +1,7 @@
+# 8.1.0 2020-10-18
+
+- Added: detect new JSX runtime and disable React plugin rules accordingly
+
 # 8.0.0 2020-10-04
 
 - Breaking: removed `eslint-import-resolver-webpack` from direct dependencies. This means
