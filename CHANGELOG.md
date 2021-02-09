@@ -1,3 +1,7 @@
+# 9.0.1 2021-02-09
+
+- Fixed: `jest/globals` is unknown
+
 # 9.0.0 2020-10-30
 
 - Changed: `eslint-config-standard` has been updated to `~16.0.0`
