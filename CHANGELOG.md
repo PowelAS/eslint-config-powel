@@ -1,3 +1,8 @@
+# 10.0.0 2021-02-15
+
+- Changed: `eslint-config-prettier` and `eslint-plugin-prettier` have been updated
+- Breaking: Removed deprecated `class-name-casing` rule from TypeScript config and enforced consistent naming convention
+
 # 9.0.1 2021-02-09
 
 - Fixed: `jest/globals` is unknown
