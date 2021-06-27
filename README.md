@@ -89,7 +89,7 @@ Add this to your `.eslintrc`:
 To use the `eslint-plugin-import` rule set:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-plugin-import eslint-plugin-simple-import-sort
+npm i -D eslint eslint-config-powel eslint-plugin-import
 ```
 
 Add this to your `.eslintrc`:
@@ -155,7 +155,7 @@ You can use any combination of these presets.
 Install the dependencies:
 
 ```sh
-npm i -D eslint eslint-config-powel eslint-plugin-import eslint-plugin-simple-import-sort @babel/eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
+npm i -D eslint eslint-config-powel eslint-plugin-import @babel/eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript eslint-plugin-react eslint-plugin-jest eslint-plugin-css-modules
 ```
 
 `.eslintrc`:

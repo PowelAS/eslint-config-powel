@@ -1,10 +1,9 @@
 'use strict';
 
 module.exports = {
-  plugins: ['import', 'simple-import-sort'],
+  plugins: ['import'],
   rules: {
     // https://github.com/benmosher/eslint-plugin-import
-    // https://github.com/lydell/eslint-plugin-simple-import-sort
     // some of the rules are inherited from
     // https://github.com/standard/eslint-config-standard/blob/master/eslintrc.json
     'import/named': 'error',
@@ -12,12 +11,19 @@ module.exports = {
     'import/no-dynamic-require': 'error',
     'import/no-useless-path-segments': 'error',
     'import/no-extraneous-dependencies': 'error',
-    'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-commonjs': 'error',
     'import/no-amd': 'error',
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error'
+    'import/order': [
+      'error',
+      {
+        groups: [['builtin', 'external'], 'internal'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc'
+        }
+      }
+    ]
   },
   settings: {
     'import/ignore': [
