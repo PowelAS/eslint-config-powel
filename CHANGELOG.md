@@ -1,3 +1,24 @@
+# 11.0.0 2021-06-27
+
+- Changed: use `eslint-plugin-simple-import-sort` for sorting imports
+- Breaking: Removed `eslint-import-resolver-webpack` from `import` config. If you're using webpack module aliasing, install `eslint-import-resolver-webpack` and configure it in your project's `.eslintrc.js`:
+
+  ```js
+  module.exports = {
+    extends: [],
+    settings: {
+      'import/resolver': {
+        // https://github.com/benmosher/eslint-plugin-import/issues/1396
+        node: {},
+        webpack: {
+          // https://github.com/benmosher/eslint-plugin-import/issues/799
+          config: 'conf/webpack.eslint.js'
+        }
+      }
+    }
+  };
+  ```
+
 # 10.0.0 2021-02-15
 
 - Changed: `eslint-config-prettier` and `eslint-plugin-prettier` have been updated
