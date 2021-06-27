@@ -1,3 +1,7 @@
+# 11.0.1 2021-06-27
+
+- Changed: bring back `import/order` rule instead of using rules from `eslint-plugin-simple-import-sort`
+
 # 11.0.0 2021-06-27
 
 - Changed: use `eslint-plugin-simple-import-sort` for sorting imports
